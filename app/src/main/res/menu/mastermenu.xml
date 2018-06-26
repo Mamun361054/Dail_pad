@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/switchToBMI"
+            android:orderInCategory="100"
+        android:title="BMI Calculator"
+        app:showAsAction="always" />
+
+    <item
+            android:id="@+id/switchToAlarm"
+            android:orderInCategory="300"
+        android:title="Medicine Alarm"
+        app:showAsAction="always" />
+    <item
+            android:id="@+id/switchToChart"
+            android:orderInCategory="300"
+
+        android:title="Weight Chart"
+        app:showAsAction="always" />
+
+</menu>

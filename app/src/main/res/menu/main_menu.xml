@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main"
+        android:title="Main"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/theme1"
+        android:orderInCategory="100"
+        android:title="Grey"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/theme2"
+        android:orderInCategory="200"
+        android:title="Black"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/theme3"
+        android:orderInCategory="300"
+
+        android:title="Sky Blue"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/theme4"
+        android:orderInCategory="400"
+        android:title="Unique"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/theme5"
+        android:orderInCategory="500"
+        android:title="White"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/theme6"
+        android:orderInCategory="600"
+        android:title="Abstract"
+        android:icon="@mipmap/f6"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/theme7"
+        android:orderInCategory="700"
+
+        android:title="Girls"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/theme8"
+        android:orderInCategory="800"
+        android:title="Nature"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/samsung"
+        android:title="samsung"
+        android:orderInCategory="1000"/>
+    <item
+        android:id="@+id/ios"
+        android:title="ios"
+        android:orderInCategory="800"/>
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="1100"
+        android:title="Contact"
+        app:showAsAction="collapseActionView" />
+</menu>

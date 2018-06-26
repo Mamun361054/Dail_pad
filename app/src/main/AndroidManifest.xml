@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dialpad.home.dail_pad"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/call6"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/call5"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.dialpad.home.dail_pad.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dialpad.home.dail_pad.Theme_2" />
+        <activity
+            android:name="com.dialpad.home.dail_pad.Theme_1"
+            android:showForAllUsers="true" />
+        <activity android:name="com.dialpad.home.dail_pad.Theme_3" />
+        <activity android:name="com.dialpad.home.dail_pad.theme_4" />
+        <activity android:name="com.dialpad.home.dail_pad.theme_5" />
+        <activity android:name="com.dialpad.home.dail_pad.theme_6" />
+        <activity android:name="com.dialpad.home.dail_pad.theme_7" />
+        <activity android:name="com.dialpad.home.dail_pad.theme_8" />
+        <activity
+            android:name="com.dialpad.home.dail_pad.About_ME"
+            android:showForAllUsers="true" />
+        <activity android:name="com.dialpad.home.dail_pad.SMS" />
+        <activity
+            android:name="com.dialpad.home.dail_pad.samsung"
+            android:showForAllUsers="true" />
+        <activity android:name="com.dialpad.home.dail_pad.ios"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+    </application>
+
+</manifest>

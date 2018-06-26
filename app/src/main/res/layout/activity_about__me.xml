@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.dialpad.home.dail_pad.About_ME">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/f23">
+
+        <ImageButton
+            android:id="@+id/imageView"
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/thm"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#ffb143"
+            android:textStyle="bold"
+            android:text="Mizanur Rahaman\nContact With Me\nrnchondon@gmail.com" />
+        <Button
+            android:id="@+id/num1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@mipmap/f23"
+            android:text="01835830281"
+            android:textSize="30dp"
+            android:textColor="#b4d950"
+            android:textStyle="italic"/>
+    <Button
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@mipmap/f23"
+        android:text="01676331306"
+        android:textSize="30dp"
+        android:textColor="#f1ed0e"
+        android:textStyle="italic"/>
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/home"/>
+</LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
